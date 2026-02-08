@@ -9,6 +9,7 @@
         "test": "jest",
         "setup": "node scripts/setup.js",
         "seed": "node scripts/seedData.js",
+        "demo": "node scripts/generateDemoData.js",
         "collision-service": "node services/collisionService.js",
         "altitude-service": "node services/altitudeCheckService.js",
         "data-ingestion": "node services/dataIngestionService.js"
